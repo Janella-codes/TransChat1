@@ -1,10 +1,10 @@
 import { useSession } from "next-auth/react";
-import { 
-    FormEvent, 
+import {  
     useCallback, 
     useLayoutEffect, 
     useRef, 
     useState } from "react";
+import type { FormEvent } from "react";
 import { api } from "~/utils/api";
 import { Button } from "./Button";
 import { ProfileImage } from "./ProfileImage";
